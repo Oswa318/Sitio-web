@@ -1,0 +1,333 @@
+.titulo{
+    display: flex;
+    width: 100;
+    justify-content: center;
+    align-items: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 3em;
+    color: rgb(25, 209, 209);
+    letter-spacing: 2px;
+    padding: 30px;
+}
+
+.menu {
+    display: flex;
+    width: 100;
+    justify-content: center;
+    gap: 3em;
+}
+
+.menu a{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color:brown;
+    text-decoration: none;
+    background-color: rgb(119, 126, 119);
+    padding: 1em;
+    border-radius: 3em;
+}
+
+.menu a:hover{
+    color: white;
+    background-color: black;
+}
+
+.subtitulo{
+    display: flex;
+    width: 100;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5em;
+    color: black;
+    letter-spacing: 5px;
+    padding: 1em;
+}
+
+.portada{
+    display: flex;
+    width: 100%;
+    height: 70vh;
+    margin-top: 2em;
+    justify-content: center;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 50vh;
+    padding: 2em;
+}
+
+.footer-logo{
+    display: flex;
+    width: 33%;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+
+}
+
+.footer-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 33%;
+    gap: 2em;
+}
+.footer-links a{
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 0.3em;
+}
+
+.footer-contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 33%;
+}
+
+.footer-contact> a> img{
+    width: 60px;
+}
+
+.footer-contact>a>img:last-child{
+    margin-top: 1em;
+}
+
+.destino{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 2rem;
+}
+
+.imagenes{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 1em;
+    gap: 1em;
+}
+
+.img-1{
+    background-image: url("./imagen/PATZCUARO/PATZCUARO.jpg");
+    background-repeat: no-repeat;
+    background-size: center center;
+    background-size: cover;
+    height: 58vh;
+    width: 33%;
+    border: 3px solid black;
+    border-radius: 8px;
+}
+
+.img-2{
+    background-image: url("./imagen/PATZCUARO/PATZCUARO2.jpg");
+    background-repeat: no-repeat;
+    background-size: center center;
+    background-size: cover;
+    height: 58vh;
+    width: 33%;
+    border: 3px solid black;
+    border-radius: 8px;
+}
+
+.img-3{
+    background-image: url("./imagen/PATZCUARO/PATZCUARO3.jpg");
+    background-repeat: no-repeat;
+    background-size: center center;
+    background-size: cover;
+    height: 58vh;
+    width: 33%;
+    border: 3px solid black;
+    border-radius: 8px;
+}
+
+.img-4{
+    background-image: url("./imagen/PARACHO/PARACHO.jpg");
+    background-repeat: no-repeat;
+    background-size: center center;
+    background-size: cover;
+    height: 58vh;
+    width: 33%;
+    border: 3px solid black;
+    border-radius: 8px;
+}
+
+.img-5{
+    background-image: url("./imagen/PARACHO/PARACHO2.jpg");
+    background-repeat: no-repeat;
+    background-size: center center;
+    background-size: cover;
+    height: 58vh;
+    width: 33%;
+    border: 3px solid black;
+    border-radius: 8px;
+}
+
+.img-6{
+    background-image: url("./imagen/PARACHO/PARACHO3.jpg");
+    background-repeat: no-repeat;
+    background-size: center center;
+    background-size: cover;
+    height: 58vh;
+    width: 33%;
+    border: 3px solid black;
+    border-radius: 8px;
+}
+
+.img-7{
+    background-image: url("./imagen/URUAPAN/CASCADA.jpg");
+    background-repeat: no-repeat;
+    background-size: center center;
+    background-size: cover;
+    height: 58vh;
+    width: 33%;
+    border: 3px solid black;
+    border-radius: 8px;
+}
+
+.img-8{
+    background-image: url("./imagen/URUAPAN/CASCADA2.jpg");
+    background-repeat: no-repeat;
+    background-size: center center;
+    background-size: cover;
+    height: 58vh;
+    width: 33%;
+    border: 3px solid black;
+    border-radius: 8px;
+}
+
+.img-9{
+    background-image: url("./imagen/URUAPAN/CASCADA3.jpg");
+    background-repeat: no-repeat;
+    background-size: center center;
+    background-size: cover;
+    height: 58vh;
+    width: 33%;
+    border: 3px solid black;
+    border-radius: 8px;
+}
+
+.textos{
+    display: flex;
+    flex-direction: row;
+    gap: 3em;
+    padding: 1em;
+}
+
+.descripcion{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 1em;
+}
+
+.costos{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 1em;
+    align-items: center;
+}
+
+.destino-titulo{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 2em;
+}
+
+.costo{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.5em;
+}
+
+.costos span{
+    color: brown;
+}
+
+.costos ul{
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+.transportes{
+    display: flex;
+    flex-direction: column;
+}
+
+.transporte-item{
+    display: flex;
+    flex-direction: row;
+    padding: 2em;
+    gap: 1em;
+}
+
+.transporte-imagen{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+.transporte-imagen img{
+    width: 60%;
+}
+
+.transporte-texto{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 1em;
+}
+
+.transporte-titulo{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 3em;
+}
+
+.tranporte-precio{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.5em;
+}
+
+.transporte-parrafo{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1em;
+    text-align: justify;
+}
+
+.transporte-item:nth-child(2){
+    flex-direction: row-reverse;
+}
+
+.contacto{
+    display: flex;
+    flex-direction: row;
+    padding: 2em;
+    gap: 4em;
+}
+
+.contacto-mapa{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+.contacto-formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    gap: 1em;
+}
+
+.contacto-formulario form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    gap: 1.5em;
+}
